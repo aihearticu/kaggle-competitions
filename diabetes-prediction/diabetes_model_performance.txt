@@ -1,0 +1,22 @@
+DIABETES PREDICTION MODEL PERFORMANCE
+==================================================
+
+Model: Ensemble (LR + RF + GB + SVM)
+ROC-AUC Score: 0.8215
+Sensitivity: 72.2%
+Specificity: 78.0%
+PPV: 63.9%
+NPV: 83.9%
+Number Needed to Screen: 1
+
+Top Risk Factors:
+• Glucose: 0.1524
+• Insulin_Resistance: 0.1387
+• BMI: 0.1057
+• Insulin: 0.0918
+• Risk_Score: 0.0709
+• Age: 0.0705
+• DiabetesPedigreeFunction: 0.0661
+• SkinThickness: 0.0658
+• Age_Group: 0.0538
+• BloodPressure: 0.0476

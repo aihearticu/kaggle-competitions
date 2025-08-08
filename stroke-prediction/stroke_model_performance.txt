@@ -1,0 +1,22 @@
+STROKE PREDICTION MODEL PERFORMANCE
+==================================================
+
+Model: Random Forest with SMOTE
+ROC-AUC Score: 0.7885
+Sensitivity: 56.0%
+Specificity: 84.9%
+PPV: 16.0%
+NPV: 97.4%
+Number Needed to Screen: 6
+
+Top Risk Factors:
+• age: 0.3715
+• age_risk: 0.1133
+• avg_glucose_level: 0.0986
+• cv_risk_score: 0.0922
+• bmi: 0.0850
+• smoking_status: 0.0588
+• work_type: 0.0427
+• bmi_category: 0.0419
+• gender: 0.0251
+• Residence_type: 0.0213

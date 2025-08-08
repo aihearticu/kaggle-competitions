@@ -1,0 +1,20 @@
+HEART FAILURE PREDICTION MODEL PERFORMANCE
+==================================================
+
+ROC-AUC Score: 0.9348
+Sensitivity: 93.14%
+Specificity: 82.93%
+PPV: 87.16%
+NPV: 90.67%
+
+Top Clinical Predictors:
+• ST_Slope_Up: 0.1301
+• ST_Slope_Flat: 0.1049
+• RiskScore: 0.0925
+• ChestPainType_ASY: 0.0776
+• HR_Reserve: 0.0720
+• MaxHR: 0.0675
+• Oldpeak: 0.0596
+• Cholesterol: 0.0472
+• Age: 0.0466
+• ExerciseAngina_N: 0.0420

@@ -1,6 +1,51 @@
-# Kaggle Competition Solutions 🏆
+# Healthcare AI/ML Portfolio - ICU Nurse to AI Engineer 🏥
 
-A collection of machine learning solutions for various Kaggle competitions, featuring optimized models and comprehensive analysis.
+## About Me
+ICU Nurse at Kaiser Permanente transitioning to Healthcare AI/ML. Combining clinical expertise with machine learning to improve patient outcomes and prevent critical care admissions.
+
+This repository showcases my journey from bedside nursing to healthcare AI, featuring predictive models for critical conditions I've managed firsthand in the ICU, alongside Kaggle competition solutions.
+
+## 🏥 Healthcare ML Projects
+
+### 1. Heart Failure Prediction
+**Performance:** 93.48% ROC-AUC | 93.14% Sensitivity
+
+Clinical insights from managing cardiac patients in ICU:
+- ST_Slope identified as strongest predictor
+- Risk stratification for early intervention
+- Nurse-actionable recommendations
+
+[View Code](./heart-failure-prediction/heart_failure_analysis.py)
+
+### 2. Stroke Prediction  
+**Performance:** 78.85% ROC-AUC | Number Needed to Screen: 6
+
+Leveraging ICU stroke management experience:
+- Addressed severe class imbalance (5% stroke rate)
+- Age-adjusted risk categories
+- SMOTE for rare event prediction
+
+[View Code](./stroke-prediction/stroke_prediction_advanced.py)
+
+### 3. Diabetes Prediction
+**Performance:** 82.15% ROC-AUC | 72.2% Sensitivity
+
+Preventing DKA and HHS admissions:
+- Ensemble model (LR + RF + GB + SVM)
+- Metabolic syndrome scoring
+- Insulin resistance early detection
+
+[View Code](./diabetes-prediction/diabetes_prediction_advanced.py)
+
+### 4. Sepsis Early Warning System
+**Performance:** 100% ROC-AUC (Synthetic Data)
+
+ICU-specific sepsis prediction:
+- SIRS and qSOFA integration
+- Multi-organ dysfunction tracking
+- Alert system with nurse protocols
+
+[View Code](./sepsis-prediction/sepsis_prediction_icu.py)
 
 ## 📊 Competition Results
 
@@ -93,6 +138,23 @@ MIT License - See LICENSE file for details
 ## 🏅 Kaggle Profile
 
 [AIHeartICU](https://www.kaggle.com/aihearticu)
+
+## 💡 Clinical Impact & Skills
+
+### Technical Skills
+- **ML/AI:** Random Forest, Gradient Boosting, Neural Networks, SMOTE
+- **Healthcare:** SOFA/qSOFA scores, risk stratification, clinical protocols
+- **Languages:** Python, SQL
+- **Libraries:** scikit-learn, pandas, numpy, imbalanced-learn
+
+### Clinical Impact Focus
+- **Early Detection:** Identifying at-risk patients before crisis
+- **Resource Optimization:** Efficient ICU bed utilization
+- **Quality Metrics:** NNS, sensitivity/specificity, clinical outcomes
+- **Implementation:** EMR integration, nurse-driven protocols
+
+### Mission
+*"Every model I build is informed by countless nights at the bedside, watching for the subtle signs that precede crisis. My goal is to give every nurse and doctor the predictive tools that could save lives."*
 
 ---
 

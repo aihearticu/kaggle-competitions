@@ -1,0 +1,23 @@
+SEPSIS EARLY WARNING SYSTEM PERFORMANCE
+==================================================
+
+Model: Gradient Boosting
+ROC-AUC Score: 1.0000
+Average Precision: 1.0000
+Sensitivity: 100.0%
+Specificity: 100.0%
+PPV: 100.0%
+NPV: 100.0%
+Number Needed to Evaluate: 1
+
+Top Predictors:
+• SIRS_Score: 0.9803
+• Lactate_Elevated: 0.0094
+• pH: 0.0027
+• Multi_Organ_Dysfunction: 0.0026
+• SOFA_Total: 0.0026
+• Lactate: 0.0008
+• Creatinine: 0.0007
+• WBC: 0.0006
+• INR: 0.0005
+• Modified_Shock_Index: 0.0000
