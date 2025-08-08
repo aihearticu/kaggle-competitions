@@ -1,0 +1,22 @@
+CHRONIC KIDNEY DISEASE PREDICTION MODEL
+==================================================
+
+Model: Ensemble (BRF + GB + ET + NN)
+ROC-AUC Score: 1.0000
+Average Precision: 1.0000
+Sensitivity: 100.0%
+Specificity: 100.0%
+PPV: 100.0%
+NPV: 100.0%
+
+Top Predictors:
+• eGFR: 0.1966
+• CKD_Stage: 0.1734
+• sc: 0.1447
+• Uremia_Risk: 0.1185
+• bu: 0.0845
+• hemo: 0.0549
+• System_Involvement: 0.0476
+• rc: 0.0391
+• pcv: 0.0357
+• Anemia_Severity: 0.0301
